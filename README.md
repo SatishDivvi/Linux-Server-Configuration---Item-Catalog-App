@@ -92,6 +92,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 2. `sudo mkdir Catalog` - Create Catalog Directory.
 3. `sudo chown -R grader:grader Catalog` - Change Owner.
 4. `cd Catalog`
+5. `sudo git clone https://github.com/SatishDivvi/Item-Catalog-Application.git Catalog` - Clone git repository and  name it **Catalog**.
 
 
 
