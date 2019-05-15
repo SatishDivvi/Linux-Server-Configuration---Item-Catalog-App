@@ -48,6 +48,7 @@ Make sure your current working directory is /home/grader
 13. Paste the key copied on **step 9** and save and exit the file.
 14. `sudo chmod 700 .ssh` - Change permission of **.ssh** folder.
 15. `sudo chmod 644 .ssh/authorized_keys` - Change permission of **authorized_keys** file.
+16. `sudo chown -R grader:grader .ssh` - Change owner of **.ssh** folder to **grader**.
 
 ### Oauth Setup - Facebook
 
