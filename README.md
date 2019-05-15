@@ -93,15 +93,30 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 3. `sudo chown -R grader:grader Catalog` - Change Owner.
 4. `cd Catalog`
 5. `sudo git clone https://github.com/SatishDivvi/Item-Catalog-Application.git Catalog` - Clone git repository and  name it **Catalog**.
+6. `cd Catalog`
+7. `mv application.py __init__.py` - Rename application.py file.
 
 **Note:** _Below steps are to make git directory not accessible._
 
-6. `cd .git`
-7. `sudo nano .htaccess` - Create **.htaccess** file.
-8. Enter text `RedirectMatch 404 /\.git` and save the file.
+7. `cd .git`
+8. `sudo nano .htaccess` - Create **.htaccess** file.
+9. Enter text `RedirectMatch 404 /\.git` and save the file.
 
 **Note:** _Below steps are to create virtual environment for our Item Catalog App_
 
+10. `cd /var/www/Catalog/Catalog` - cd to Catalog project directory which was cloned.
+11. `sudo apt-get install python-pip` - Install pip.
+12. `sudo pip install virtualenv` - Install virtualenv.
+13. `sudo virtualenv venv` - Create virtualenv.
+14. `sudo chmod -R 777 venv` - Change virtualenv permission.
+15. `source venv/bin/activate` - Activate venv.
+16. `sudo pip install Flask` - Install Flask.
+17. `sudo python __init__.py` - This step is merely needed to verify if all modules are successfully imported. If not it will provide you the module which is not imported.
+18. `sudo pip install requests`
+19. `sudo pip install sqlalchemy`
+20. `sudo pip install oauth2client`
+21. `sudo install psycopg2` - install postgres
+22. `deactivate` -  deactivate the virtual environment i.e. **venv**.
 
 
 
