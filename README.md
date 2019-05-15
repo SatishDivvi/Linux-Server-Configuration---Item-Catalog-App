@@ -9,7 +9,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 4. Install Updates
 5. Enabling the Default Ubuntu Firewall (UFW)
 6. Install Apache Server, WSGI and GIT
-8. Installing Apache Server, changing it's configuration, WSGI
+8. Configure Apache to serve Flask Application
 9. Cloning the Item Catalog App and changing database and client_secrets path
 10. Installing Postgres and assigning to Item Catalog App
 
@@ -85,5 +85,6 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 2. `sudo apt-get install libapach2-mod-wsgi python-dev` - Install WSGI.
 3. `sudo a2enmod wsgi` - Enable mod.
 4. `sudo apt-get install git` - Install GIT.
+
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
