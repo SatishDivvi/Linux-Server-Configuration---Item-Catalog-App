@@ -117,8 +117,32 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 20. `sudo pip install oauth2client`
 21. `sudo install psycopg2` - install postgres
 22. `deactivate` -  deactivate the virtual environment i.e. **venv**.
+23. `sudo nano /etc/apache2/sites-available/Catalog.conf` - Configure new Virtual Host.
+24. Paste below code into the file:
 
+```xml
+<VirtualHost *:80>
+                ServerName 54.185.239.30
+                ServerAdmin admin@54.185.239.30
+                WSGIScriptAlias / /var/www/Catalog/catalog.wsgi
+                <Directory /var/www/Catalog/Catalog/>
+                        Order allow,deny
+                        Allow from all
+                </Directory>
+                Alias /static /var/www/Catalog/Catalog/static
+                <Directory /var/www/Catalog/Catalog/static/>
+                        Order allow,deny
+                        Allow from all
+                </Directory>
+                ErrorLog ${APACHE_LOG_DIR}/error.log
+                LogLevel warn
+                CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
 
+### Install and Setup Postgres Database
+
+1. ``
 
 
 
