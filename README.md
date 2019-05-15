@@ -46,6 +46,7 @@ Make sure your current working directory is /home/grader
 11. `cd .ssh`
 12. `sudo nano authorized_keys` - Create authorized_keys file.
 13. Paste the key copied on **step 9** and save and exit the file.
+14. `sudo chmod 700 .ssh` - Change permission of **.ssh** folder.
 
 ### Oauth Setup - Facebook
 
