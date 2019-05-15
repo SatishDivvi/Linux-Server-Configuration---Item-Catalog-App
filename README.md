@@ -77,6 +77,8 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 6. `sudo ufw allow 123/udp`
 7. `sudo ufw enable` and select **y**.
 
-### Author
+### Install Apache Server, WSGI and GIT
+
+
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
