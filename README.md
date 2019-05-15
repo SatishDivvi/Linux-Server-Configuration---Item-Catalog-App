@@ -4,7 +4,7 @@
 
 This project describes in detail on how to deploy the Flask App on Amazon Lightsail Ubuntu Instance. Below topics are covered:
 1. Amazon Lightsail Instance Creation
-2. Creation of new user and generating public-private RSA key pair
+2. New User Creation and Generating Public-Private RSA Key Pair
 3. Enabling the default ubuntu firewall
 4. Install app dependencies
 5. Updating Google and Facebook OAuth if required
