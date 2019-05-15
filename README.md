@@ -25,9 +25,17 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 8. GO to SSH Keys and download the key into **/.ssh/** directory of your local machine.
 9. Open Git Bash and type `ssh ubuntu@52.32.12.49 -i ~/.ssh/Lightsail.pem`
 
-### New User Creation and Generating Public-Private RSA Key Pair
+### New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair 
+
+**Note:** _Please make sure you are logged into the instance as ubuntu user_
 
 
+1. `sudo adduser grader` - Creating User.
+2. Enter password of your like, confirm and submit.
+3. You can add values into fields: `Full Name`, `Room Number`, `Work Phone`, `Home Phone`, `Other` but are not mandatory.
+4. `sudo nano /etc/sudoers.d/grader`- create a `sudoers.d` file for grader.
+5. Enter `grader ALL=(ALL:ALL) ALL` and save the file.
+6. 
 
 
 ### Oauth Setup - Facebook
