@@ -33,9 +33,10 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 1. `sudo adduser grader` - Creating User.
 2. Enter password of your like, confirm and submit.
 3. You can add values into fields: `Full Name`, `Room Number`, `Work Phone`, `Home Phone`, `Other` but are not mandatory.
-4. `sudo nano /etc/sudoers.d/grader`- create a `sudoers.d` file for grader.
+4. `sudo nano /etc/sudoers.d/grader`- create a `sudoers.d` file for **grader**.
 5. Enter `grader ALL=(ALL:ALL) ALL` and save the file.
-6. 
+6. Go back to your local machine and open another git bash console and execute command `ssh-keygen` to generate public-private RSA key pair for **grader** user.
+7. Save the file into directory `/c/users/divvi/.ssh/item_catalog`. _Directory strucutre should be the same except the key file name. In my case it is `item_catalog`_
 
 
 ### Oauth Setup - Facebook
