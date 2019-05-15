@@ -61,7 +61,9 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 6. Go back to Amazon Lightsail and go to `Networking` tab.
 7. Edit rules in **Firewall tab** by removing `port 22` and adding `port 2200(TCP)` and `port 123(UDP)`.
 
-### Project Execution:
+### Install Updates:
+
+
 
 
 
