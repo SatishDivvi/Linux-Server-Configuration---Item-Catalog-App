@@ -56,6 +56,10 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 2. Change `Port 22` to `Port 2200`
 3. Change `PermitRootLogin prohibit-password` to `PermitRootLogin no`
 4. Change `PasswordAuthentication yes` to `PasswordAuthentication no`
+5. `sudo service ssh restart` - Restart ssh service
+6. Go back to Amazon Lightsail and go to `Networking` tab.
+7. Edit rules in **Firewall tab** by removing `port 22` and adding `port 2200(TCP)` and `port 123(UDP)`
+
 
 ### Project Execution:
 
