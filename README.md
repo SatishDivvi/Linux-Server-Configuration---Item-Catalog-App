@@ -140,6 +140,23 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 </VirtualHost>
 ```
 
+**Note:** _Below steps are to create catalog.wsgi and update the file to enable apache serve the Flask App_
+
+25. `cd /var/www/Catalog`
+26. `sudo nano catalog.wsgi` - Create **catalog.wsgi** file.
+27. Add below code to the file and save.
+
+```python
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/Catalog/")
+
+from Catalog import app as application
+application.secret_key = 'Add your secret key'
+```
+
 ### Install and Setup Postgres Database
 
 **Note:** _Please make sure you are logged into the instance as grader user_
