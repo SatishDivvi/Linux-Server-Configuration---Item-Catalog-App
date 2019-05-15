@@ -64,7 +64,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 ### Install Updates
 
 1. `ssh grader@52.32.12.49 -p 2200 -i ~/.ssh/item_catalog` - Login to Linux Instance as a **grader** user.
-2. Enter the passphrase you have created in **Step 8** of **New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair**.
+2. Enter the passphrase you have created in **Step 8** of [New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair](#New-User-Creation-Providing-Sudo-Access-and-Generating-Public-Private-RSA-Key-Pair).
 3. `sudo apt-get update` - Update the version number of all software's installed.
 4. `sudo apt-get upgrade` - Install the updates.
 
