@@ -88,5 +88,11 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Configure Apache to Serve Flask Application
 
+1. `cd /var/www`
+2. `sudo mkdir Catalog` - Create Catalog Directory.
+3. `sudo chown -R grader:grader Catalog` - Change Owner.
+4. `cd Catalog`
+
+
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
