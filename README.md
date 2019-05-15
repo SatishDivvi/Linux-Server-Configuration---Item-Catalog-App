@@ -14,6 +14,15 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Amazon Lightsail Instance Creation
 
+1. Create Instance
+2. Select OS Only
+3. Select Ubuntu 16.04 LTS
+4. Select base instance 
+5. Change the name if you would like but not mandatory
+6. Click on Create Instance
+7. Go to account
+8. GO to SSH Keys and download the key into /.ssh/ directory of your local machine.
+9. Open Git Bash and type `ssh ubuntu@52.32.12.49 -i ~/.ssh/Lightsail.pem`
 
 
 ### OAuth Setup - Google
