@@ -200,7 +200,10 @@ application.secret_key = 'Add your secret key'
 
 ### References
 
-
+1. [Create A Flask App](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+2. [Create Postgres DB](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+3. [Secure postgresql](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps)
+4. Udacity Knowledgebase
 
 ### Author
 
