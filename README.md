@@ -6,12 +6,13 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 1. Amazon Lightsail Instance Creation
 2. New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair
 3. Change Port, Disable Root Access and Disable Password Authentication
-3. Enabling the default ubuntu firewall
-4. Install app dependencies
-5. Updating Google and Facebook OAuth if required
-6. Installing Apache Server, changing it's configuration, WSGI
-7. Cloning the Item Catalog App and changing database and client_secrets path
-8. Installing Postgres and assigning to Item Catalog App
+4. Install Updates
+5. Enabling the default ubuntu firewall
+6. Install app dependencies
+7. Updating Google and Facebook OAuth if required
+8. Installing Apache Server, changing it's configuration, WSGI
+9. Cloning the Item Catalog App and changing database and client_secrets path
+10. Installing Postgres and assigning to Item Catalog App
 
 ### Amazon Lightsail Instance Creation
 
