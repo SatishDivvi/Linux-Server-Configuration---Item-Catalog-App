@@ -5,14 +5,14 @@
 This project describes in detail on how to deploy the Flask App on Amazon Lightsail Ubuntu Instance. Below topics are covered:
 1. [Amazon Lightsail Instance Creation](#Amazon-Lightsail-Instance-Creation)
 2. [New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair](#New-User-Creation-Providing-Sudo-Access-and-Generating-Public-Private-RSA-Key-Pair)
-3. Change Port, Disable Root Access and Disable Password Authentication
-4. Install Updates
-5. Enabling the Default Ubuntu Firewall (UFW)
-6. Install Apache Server, WSGI and GIT
-8. Configure Apache to Serve Flask Application
-9. Install and Setup Postgres Database
-10. Update Google and Facebook OAuth Information
-11. Ready App Environment
+3. [Change Port, Disable Root Access and Disable Password Authentication](#Change-Port-Disable-Root-Access-and-Disable-Password-Authentication)
+4. [Install Updates](#Install-Updates)
+5. [Enabling the Default Ubuntu Firewall (UFW)](#Enabling-the-Default-Ubuntu-Firewall-(UFW))
+6. [Install Apache Server, WSGI and GIT]
+8. [Configure Apache to Serve Flask Application]
+9. [Install and Setup Postgres Database]
+10. [Update Google and Facebook OAuth Information]
+11. [Ready App Environment]
 
 ### Amazon Lightsail Instance Creation
 
