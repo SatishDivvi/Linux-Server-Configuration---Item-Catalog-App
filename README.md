@@ -142,7 +142,8 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Install and Setup Postgres Database
 
-1. ``
+1. `sudo apt-get install postgres` - Install postgres.
+2. `sudo su - postgres` - login as a postgres user.
 
 
 
