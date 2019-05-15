@@ -25,7 +25,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 9. Open Git Bash and type `ssh ubuntu@52.32.12.49 -i ~/.ssh/Lightsail.pem`
 
 
-### OAuth Setup - Google
+### New User Creation and Generating Public-Private RSA Key Pair
 
 
 ### Oauth Setup - Facebook
