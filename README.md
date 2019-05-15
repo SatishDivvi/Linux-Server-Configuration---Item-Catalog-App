@@ -50,7 +50,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 15. `sudo chmod 644 .ssh/authorized_keys` - Change permission of **authorized_keys** file.
 16. `sudo chown -R grader:grader .ssh` - Change owner of **.ssh** folder to **grader**.
 
-### Oauth Setup - Facebook
+### Change Port, Disable Root Access and Disable Password Authentication
 
 
 
