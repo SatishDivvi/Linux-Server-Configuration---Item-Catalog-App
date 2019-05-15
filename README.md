@@ -12,6 +12,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 8. Configure Apache to Serve Flask Application
 9. Install and Setup Postgres Database
 10. Update Google and Facebook OAuth Information
+11. Ready App Environment
 
 ### Amazon Lightsail Instance Creation
 
@@ -191,6 +192,7 @@ application.secret_key = 'Add your secret key'
     a) Add `http://52.32.12.49` and `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com` to **Javascript Origins**.
     b) Add `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com\login` and `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com/gconnect` or `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com/googleconnect` depnding on what route you have defined in `__init__.py`
 
+### Ready App Environment
 
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
