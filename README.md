@@ -11,7 +11,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 6. Install Apache Server, WSGI and GIT
 8. Configure Apache to Serve Flask Application
 9. Install and Setup Postgres Database
-10. Installing Postgres and assigning to Item Catalog App
+10. Update Google and Facebook OAuth Information
 
 ### Amazon Lightsail Instance Creation
 
@@ -162,6 +162,8 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 16. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
 17. `sudo nano __init__.py`
 18. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
+
+### Update Google and Facebook OAuth Information
 
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
