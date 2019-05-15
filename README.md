@@ -1,4 +1,4 @@
-# Item Catalog Application
+# Linux Server Configuration - Item Catalog App
 
 ### Introduction:
 
