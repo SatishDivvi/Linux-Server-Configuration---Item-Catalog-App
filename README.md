@@ -38,6 +38,14 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 6. Go back to your local machine and open another git bash console and execute command `ssh-keygen` to generate public-private RSA key pair for **grader** user.
 7. Save the file into directory `/c/users/divvi/.ssh/item_catalog`. _Directory strucutre should be the same except the key file name. In my case it is `item_catalog`._
 8. Give and confirm the passphrase.
+9. `cat ~/.ssh/item_catalog.pub` - Copy the key generated.
+
+Make sure your current working directory is /home/grader
+
+10. `mkdir .ssh`
+11. `cd .ssh`
+12. `sudo nano authorized_keys` - Create authorized_keys file.
+13. Paste the key copied on **step 9** and save and exit the file.
 
 ### Oauth Setup - Facebook
 
