@@ -62,7 +62,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Install Updates
 
-1. `ssh grader@54.185.239.30 -p 2200 -i ~/.ssh/item_catalog` - Login to Linux Instance as a **grader** user.
+1. `ssh grader@52.32.12.49 -p 2200 -i ~/.ssh/item_catalog` - Login to Linux Instance as a **grader** user.
 2. Enter the passphrase you have created in **Step 8** of **New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair**.
 3. `sudo apt-get update` - Update the version number of all software's installed.
 4. `sudo apt-get upgrade` - Install the updates.
@@ -164,6 +164,16 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 18. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
 
 ### Update Google and Facebook OAuth Information
+
+1. `cd /var/www/Catalog/Catalog`
+2. `sudo nano __init__.py`
+3. Change the path from `client_secrets.json` to `/var/www/Catalog/Catalog/client_secrets.json` wherever this file name is mentioned.
+4. Change the path from `fb_client_secrets.json` to `/var/www/Catalog/Catalog/fb_client_secrets.json` wherever this file name is mentioned.
+5. For Google OAuth:
+    
+    a) Add `http://52.32.12.49` and `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com` to **Javascript Origins**.
+    b) Add `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com\login` and `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com/gconnect` or `http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com/googleconnect` depnding on what route you have defined in `__init__.py`
+
 
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
