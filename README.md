@@ -70,7 +70,13 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Enabling the Default Ubuntu Firewall (UFW)
 
-
+1. `sudo ufw status` - Check the status of firewall, It should be **inactive**.
+2. `sudo ufw default deny incoming`
+3. `sudo ufw default allow outgoing`
+4. `sudo ufw allow 2200/tcp`
+5. `sudo ufw allow www`
+6. `sudo ufw allow 123/udp`
+7. `sudo ufw enable` and select **y**.
 
 ### Author
 
