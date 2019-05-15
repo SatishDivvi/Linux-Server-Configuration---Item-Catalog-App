@@ -59,8 +59,6 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 5. `sudo service ssh restart` - Restart ssh service.
 6. Go back to Amazon Lightsail and go to `Networking` tab.
 7. Edit rules in **Firewall tab** by removing `port 22` and adding `port 2200(TCP)` and `port 123(UDP)`.
-8. `ssh grader@54.185.239.30 -p 2200 -i ~/.ssh/item_catalog` - Login to Linux Instance as a **grader** user.
-9. Enter the passphrase you have created in **Step 8** of **New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair**.
 
 ### Project Execution:
 
