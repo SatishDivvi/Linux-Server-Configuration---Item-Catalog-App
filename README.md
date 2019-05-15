@@ -4,7 +4,7 @@
 
 This project describes in detail on how to deploy the Flask App on Amazon Lightsail Ubuntu Instance. Below topics are covered:
 1. Amazon Lightsail Instance Creation
-2. New User Creation and Generating Public-Private RSA Key Pair
+2. New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair
 3. Enabling the default ubuntu firewall
 4. Install app dependencies
 5. Updating Google and Facebook OAuth if required
@@ -29,7 +29,6 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 **Note:** _Please make sure you are logged into the instance as ubuntu user_
 
-
 1. `sudo adduser grader` - Creating User.
 2. Enter password of your like, confirm and submit.
 3. You can add values into fields: `Full Name`, `Room Number`, `Work Phone`, `Home Phone`, `Other` but are not mandatory.
@@ -40,7 +39,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 8. Give and confirm the passphrase.
 9. `cat ~/.ssh/item_catalog.pub` - Copy the key generated.
 
-Make sure your current working directory is /home/grader
+**Note:** _Make sure your current working directory is /home/grader_
 
 10. `mkdir .ssh`
 11. `cd .ssh`
