@@ -196,7 +196,7 @@ application.secret_key = 'Add your secret key'
 
 1. Add new tables to **catalog** database by running `sudo python database_setup.py`
 2. Populate **catalog** database by running`sudo python add_categories_and_items.py`
-3. launch [ItemCatalogApp]('http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com') in your favorite browser.
+3. launch [ItemCatalogApp](http://ec2-52-32-12-49.us-west-2.compute.amazonaws.com) in your favorite browser.
 
 ### Author
 
