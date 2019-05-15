@@ -10,7 +10,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 5. Enabling the Default Ubuntu Firewall (UFW)
 6. Install Apache Server, WSGI and GIT
 8. Configure Apache to Serve Flask Application
-9. Cloning the Item Catalog App and changing database and client_secrets path
+9. Install and Setup Postgres Database
 10. Installing Postgres and assigning to Item Catalog App
 
 ### Amazon Lightsail Instance Creation
@@ -117,6 +117,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 20. `sudo pip install oauth2client`
 21. `sudo install psycopg2` - install postgres
 22. `deactivate` -  deactivate the virtual environment i.e. **venv**.
+
 
 
 
