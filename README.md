@@ -7,7 +7,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 2. New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair
 3. Change Port, Disable Root Access and Disable Password Authentication
 4. Install Updates
-5. Enabling the default ubuntu firewall
+5. Enabling the Default Ubuntu Firewall (UFW)
 6. Install app dependencies
 7. Updating Google and Facebook OAuth if required
 8. Installing Apache Server, changing it's configuration, WSGI
