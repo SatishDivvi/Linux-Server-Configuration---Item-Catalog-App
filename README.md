@@ -155,6 +155,13 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 9. `GRANT ALL ON SCHEMA public TO catalog;` - Grant rights to user **catalog** only.
 10. `\q` - exit the datatabase.
 11. `exit` - logout from postgres user account.
+12. `cd /var/www/Catalog/Catalog/`
+13. `sudo nano database_setup.py`
+14. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
+15. `sudo nano add_categories_and_items.py`
+16. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
+17. `sudo nano __init__.py`
+18. Change `create_engine('sqlite:///catalog.db')` to `create_engine('postgresql://catalog:catalog@localhost/catalog')` and save the file.
 
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
