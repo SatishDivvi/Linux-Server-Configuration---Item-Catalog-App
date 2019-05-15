@@ -54,7 +54,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 1. `sudo nano /etc/ssh/sshd_config` - Open the **sshd_config** file.
 2. Change `Port 22` to `Port 2200`
-
+3. Change `PermitRootLogin prohibit-password` to `PermitRootLogin no`
 
 ### Project Execution:
 
