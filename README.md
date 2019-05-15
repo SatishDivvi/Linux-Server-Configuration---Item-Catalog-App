@@ -98,6 +98,11 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 6. `cd .git`
 7. `sudo nano .htaccess` - Create **.htaccess** file.
+8. Enter text `RedirectMatch 404 /\.git` and save the file.
+
+**Note:** _Below steps are to create virtual environment for our Item Catalog App_
+
+
 
 
 
