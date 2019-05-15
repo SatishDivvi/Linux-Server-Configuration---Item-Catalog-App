@@ -3,7 +3,7 @@
 ### Introduction:
 
 This project describes in detail on how to deploy the Flask App on Amazon Lightsail Ubuntu Instance. Below topics are covered:
-1. [Amazon Lightsail Instance Creation](###Amazon-Lightsail-Instance-Creation)
+1. [Amazon Lightsail Instance Creation](#Amazon-Lightsail-Instance-Creation)
 2. New User Creation, Providing Sudo Access and Generating Public-Private RSA Key Pair
 3. Change Port, Disable Root Access and Disable Password Authentication
 4. Install Updates
@@ -14,7 +14,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 10. Update Google and Facebook OAuth Information
 11. Ready App Environment
 
-###Amazon Lightsail Instance Creation
+### Amazon Lightsail Instance Creation
 
 1. Log into AWS Console [RegisteredUsers]('https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fnc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0'). If not please register to [NewRegistration]('https://portal.aws.amazon.com/billing/signup#/start')
 1. Click on **Create Instance**
