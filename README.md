@@ -53,6 +53,8 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 ### Change Port, Disable Root Access and Disable Password Authentication
 
 1. `sudo nano /etc/ssh/sshd_config` - Open the **sshd_config** file.
+2. Change `Port 22` to `Port 2200`
+
 
 ### Project Execution:
 
