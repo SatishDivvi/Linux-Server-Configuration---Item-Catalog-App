@@ -79,6 +79,11 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Install Apache Server, WSGI and GIT
 
-**Note:** _Please make sure you are logged into the instance as ubuntu user_
+**Note:** _Please make sure you are logged into the instance as grader user_
+
+1. `sudo apt-get install apache2` - Install apache2 server.
+2. `sudo apt-get install libapach2-mod-wsgi python-dev` - Install WSGI.
+3. `sudo a2enmod wsgi` - Enable mod.
+4. `sudo apt-get install git` - Install GIT.
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
