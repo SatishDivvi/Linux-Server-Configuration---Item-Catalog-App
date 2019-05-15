@@ -79,6 +79,6 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Install Apache Server, WSGI and GIT
 
-
+**Note:** _Please make sure you are logged into the instance as ubuntu user_
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
