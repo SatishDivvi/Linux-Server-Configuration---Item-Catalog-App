@@ -142,10 +142,19 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 
 ### Install and Setup Postgres Database
 
+**Note:** _Please make sure you are logged into the instance as grader user_
+
 1. `sudo apt-get install postgres` - Install postgres.
 2. `sudo su - postgres` - login as a postgres user.
 3. `psql` - Connect to shell.
-4. `CREATE USER catalog WITH PASSWORD 'catalog';`
+4. `CREATE USER catalog WITH PASSWORD 'catalog';` - Create user catalog.
+5. `ALTER USER catalog CREATEDB;` - Change catalog user role to creating database.
+6. `CREATE DATABASE catalog with OWNER catalog;` - Create database catalog.
+7. `\c catalog` - connect to catalog database.
+8. `REVOKE ALL ON SCHEMA public FROM public;` - Revoke rights to all users.
+9. `GRANT ALL ON SCHEMA public TO catalog;` - Grant rights to user **catalog** only.
+10. `\q` - exit the datatabase.
+11. `exit` - logout from postgres user account.
 
 
 Divvi Naga Venkata Satish - [Portfolio](https://satishdivvi.github.io)
