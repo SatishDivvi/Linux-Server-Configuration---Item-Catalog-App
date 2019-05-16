@@ -158,6 +158,8 @@ from Catalog import app as application
 application.secret_key = 'Add your secret key'
 ```
 
+28. `sudo chown -R grader:grader catalog.wsgi` - Change the owner to **grader**.
+
 ### Install and Setup Postgres Database
 
 **Note:** _Please make sure you are logged into the instance as grader user_
