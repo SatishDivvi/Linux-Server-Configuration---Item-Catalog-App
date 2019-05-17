@@ -71,6 +71,7 @@ This project describes in detail on how to deploy the Flask App on Amazon Lights
 **Note:** _New Packages such as new kernel versions will not be installed by `apt-get upgrade` command and need to be installed by command `sudo apt-get dist-upgrade`. Below steps are for the same._
 
 5. `sudo apt-get update` - Update the version number of all software's installed.
+6. `sudo apt-get dist-upgrade`- Install all the packages which were not installed by `sudo apt-get upgrade command`.
 
 ### Enabling the Default Ubuntu Firewall (UFW)
 
